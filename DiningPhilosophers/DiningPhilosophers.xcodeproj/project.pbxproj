@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C917AC92291676C700B46671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C917AC91291676C700B46671 /* AppDelegate.swift */; };
+		C917AC94291676C700B46671 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C917AC93291676C700B46671 /* SceneDelegate.swift */; };
+		C917AC96291676C700B46671 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C917AC95291676C700B46671 /* ViewController.swift */; };
+		C917AC99291676C700B46671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C917AC97291676C700B46671 /* Main.storyboard */; };
+		C917AC9B291676C800B46671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C917AC9A291676C800B46671 /* Assets.xcassets */; };
+		C917AC9E291676C900B46671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C917AC9C291676C900B46671 /* LaunchScreen.storyboard */; };
+		C917ACA9291676C900B46671 /* DiningPhilosophersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C917ACA8291676C900B46671 /* DiningPhilosophersTests.swift */; };
+		C917ACC22916778D00B46671 /* Mutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C917ACC12916778D00B46671 /* Mutex.swift */; };
+		C9CD3E602937DAEB00E12C0C /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CD3E5F2937DAEB00E12C0C /* Table.swift */; };
+		C9CD3E622937DAFF00E12C0C /* Philosopher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CD3E612937DAFF00E12C0C /* Philosopher.swift */; };
+		C9CD3E642937DB1500E12C0C /* Fork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CD3E632937DB1500E12C0C /* Fork.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C917ACA5291676C900B46671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C917AC86291676C700B46671 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C917AC8D291676C700B46671;
+			remoteInfo = DiningPhilosophers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C917AC8E291676C700B46671 /* DiningPhilosophers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiningPhilosophers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C917AC91291676C700B46671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C917AC93291676C700B46671 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C917AC95291676C700B46671 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C917AC98291676C700B46671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C917AC9A291676C800B46671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C917AC9D291676C900B46671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C917AC9F291676C900B46671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C917ACA4291676C900B46671 /* DiningPhilosophersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiningPhilosophersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C917ACA8291676C900B46671 /* DiningPhilosophersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningPhilosophersTests.swift; sourceTree = "<group>"; };
+		C917ACC12916778D00B46671 /* Mutex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mutex.swift; sourceTree = "<group>"; };
+		C9CD3E5F2937DAEB00E12C0C /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		C9CD3E612937DAFF00E12C0C /* Philosopher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philosopher.swift; sourceTree = "<group>"; };
+		C9CD3E632937DB1500E12C0C /* Fork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fork.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C917AC8B291676C700B46671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C917ACA1291676C900B46671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C917AC85291676C700B46671 = {
+			isa = PBXGroup;
+			children = (
+				C917AC90291676C700B46671 /* DiningPhilosophers */,
+				C917ACA7291676C900B46671 /* DiningPhilosophersTests */,
+				C917ACB1291676C900B46671 /* DiningPhilosophersUITests */,
+				C917AC8F291676C700B46671 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C917AC8F291676C700B46671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C917AC8E291676C700B46671 /* DiningPhilosophers.app */,
+				C917ACA4291676C900B46671 /* DiningPhilosophersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C917AC90291676C700B46671 /* DiningPhilosophers */ = {
+			isa = PBXGroup;
+			children = (
+				C917AC91291676C700B46671 /* AppDelegate.swift */,
+				C917AC93291676C700B46671 /* SceneDelegate.swift */,
+				C917AC95291676C700B46671 /* ViewController.swift */,
+				C9CD3E632937DB1500E12C0C /* Fork.swift */,
+				C9CD3E612937DAFF00E12C0C /* Philosopher.swift */,
+				C9CD3E5F2937DAEB00E12C0C /* Table.swift */,
+				C917ACC12916778D00B46671 /* Mutex.swift */,
+				C917AC97291676C700B46671 /* Main.storyboard */,
+				C917AC9A291676C800B46671 /* Assets.xcassets */,
+				C917AC9C291676C900B46671 /* LaunchScreen.storyboard */,
+				C917AC9F291676C900B46671 /* Info.plist */,
+			);
+			path = DiningPhilosophers;
+			sourceTree = "<group>";
+		};
+		C917ACA7291676C900B46671 /* DiningPhilosophersTests */ = {
+			isa = PBXGroup;
+			children = (
+				C917ACA8291676C900B46671 /* DiningPhilosophersTests.swift */,
+			);
+			path = DiningPhilosophersTests;
+			sourceTree = "<group>";
+		};
+		C917ACB1291676C900B46671 /* DiningPhilosophersUITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DiningPhilosophersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C917AC8D291676C700B46671 /* DiningPhilosophers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C917ACB8291676C900B46671 /* Build configuration list for PBXNativeTarget "DiningPhilosophers" */;
+			buildPhases = (
+				C917AC8A291676C700B46671 /* Sources */,
+				C917AC8B291676C700B46671 /* Frameworks */,
+				C917AC8C291676C700B46671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiningPhilosophers;
+			productName = DiningPhilosophers;
+			productReference = C917AC8E291676C700B46671 /* DiningPhilosophers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C917ACA3291676C900B46671 /* DiningPhilosophersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C917ACBB291676C900B46671 /* Build configuration list for PBXNativeTarget "DiningPhilosophersTests" */;
+			buildPhases = (
+				C917ACA0291676C900B46671 /* Sources */,
+				C917ACA1291676C900B46671 /* Frameworks */,
+				C917ACA2291676C900B46671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C917ACA6291676C900B46671 /* PBXTargetDependency */,
+			);
+			name = DiningPhilosophersTests;
+			productName = DiningPhilosophersTests;
+			productReference = C917ACA4291676C900B46671 /* DiningPhilosophersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C917AC86291676C700B46671 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C917AC8D291676C700B46671 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					C917ACA3291676C900B46671 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = C917AC8D291676C700B46671;
+					};
+				};
+			};
+			buildConfigurationList = C917AC89291676C700B46671 /* Build configuration list for PBXProject "DiningPhilosophers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C917AC85291676C700B46671;
+			productRefGroup = C917AC8F291676C700B46671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C917AC8D291676C700B46671 /* DiningPhilosophers */,
+				C917ACA3291676C900B46671 /* DiningPhilosophersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C917AC8C291676C700B46671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C917AC9E291676C900B46671 /* LaunchScreen.storyboard in Resources */,
+				C917AC9B291676C800B46671 /* Assets.xcassets in Resources */,
+				C917AC99291676C700B46671 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C917ACA2291676C900B46671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C917AC8A291676C700B46671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C917AC96291676C700B46671 /* ViewController.swift in Sources */,
+				C9CD3E622937DAFF00E12C0C /* Philosopher.swift in Sources */,
+				C9CD3E602937DAEB00E12C0C /* Table.swift in Sources */,
+				C917ACC22916778D00B46671 /* Mutex.swift in Sources */,
+				C9CD3E642937DB1500E12C0C /* Fork.swift in Sources */,
+				C917AC92291676C700B46671 /* AppDelegate.swift in Sources */,
+				C917AC94291676C700B46671 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C917ACA0291676C900B46671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C917ACA9291676C900B46671 /* DiningPhilosophersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C917ACA6291676C900B46671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C917AC8D291676C700B46671 /* DiningPhilosophers */;
+			targetProxy = C917ACA5291676C900B46671 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C917AC97291676C700B46671 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C917AC98291676C700B46671 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C917AC9C291676C900B46671 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C917AC9D291676C900B46671 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C917ACB6291676C900B46671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C917ACB7291676C900B46671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C917ACB9291676C900B46671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3S4J75265;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiningPhilosophers/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capitan.DiningPhilosophers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C917ACBA291676C900B46671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3S4J75265;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiningPhilosophers/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capitan.DiningPhilosophers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C917ACBC291676C900B46671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3S4J75265;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capitan.DiningPhilosophersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiningPhilosophers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiningPhilosophers";
+			};
+			name = Debug;
+		};
+		C917ACBD291676C900B46671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3S4J75265;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capitan.DiningPhilosophersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiningPhilosophers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiningPhilosophers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C917AC89291676C700B46671 /* Build configuration list for PBXProject "DiningPhilosophers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C917ACB6291676C900B46671 /* Debug */,
+				C917ACB7291676C900B46671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C917ACB8291676C900B46671 /* Build configuration list for PBXNativeTarget "DiningPhilosophers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C917ACB9291676C900B46671 /* Debug */,
+				C917ACBA291676C900B46671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C917ACBB291676C900B46671 /* Build configuration list for PBXNativeTarget "DiningPhilosophersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C917ACBC291676C900B46671 /* Debug */,
+				C917ACBD291676C900B46671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C917AC86291676C700B46671 /* Project object */;
+}
