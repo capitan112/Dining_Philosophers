@@ -27,14 +27,14 @@ final class DiningPhilosophersTests: XCTestCase {
 
         XCTAssertEqual(philosopher?.number, 0)
         XCTAssertEqual(philosopher?.leftFork.number, 4)
-        XCTAssertEqual(philosopher?.rihgtFork.number, 0)
+        XCTAssertEqual(philosopher?.rightFork.number, 0)
     }
 
     func testPhilosopherIndexOne() throws {
         let philosopher = philosophers[1]
         XCTAssertEqual(philosopher.number, 1)
         XCTAssertEqual(philosopher.leftFork.number, 0)
-        XCTAssertEqual(philosopher.rihgtFork.number, 1)
+        XCTAssertEqual(philosopher.rightFork.number, 1)
     }
 
     func testPhilosopherIndexTwo() throws {
@@ -42,7 +42,7 @@ final class DiningPhilosophersTests: XCTestCase {
 
         XCTAssertEqual(philosopher.number, 2)
         XCTAssertEqual(philosopher.leftFork.number, 1)
-        XCTAssertEqual(philosopher.rihgtFork.number, 2)
+        XCTAssertEqual(philosopher.rightFork.number, 2)
     }
 
     func testPhilosopherIndexThree() throws {
@@ -50,7 +50,7 @@ final class DiningPhilosophersTests: XCTestCase {
 
         XCTAssertEqual(philosopher.number, 3)
         XCTAssertEqual(philosopher.leftFork.number, 2)
-        XCTAssertEqual(philosopher.rihgtFork.number, 3)
+        XCTAssertEqual(philosopher.rightFork.number, 3)
     }
 
     func testPhilosopherIndexFour() throws {
@@ -58,14 +58,14 @@ final class DiningPhilosophersTests: XCTestCase {
 
         XCTAssertEqual(philosopher.number, 4)
         XCTAssertEqual(philosopher.leftFork.number, 3)
-        XCTAssertEqual(philosopher.rihgtFork.number, 4)
+        XCTAssertEqual(philosopher.rightFork.number, 4)
     }
 
     func testSameForksAtTablebyIndex1() throws {
         let philosopher_index0 = philosophers[0]
         let philosopher_index1 = philosophers[1]
 
-        XCTAssertEqual(philosopher_index0.rihgtFork, philosopher_index1.leftFork)
+        XCTAssertEqual(philosopher_index0.rightFork, philosopher_index1.leftFork)
     }
 
 //    func testSameForksAtTablebyIndex0() throws {
